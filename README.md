@@ -1,4 +1,4 @@
-#Plagarism Detector using Python
+# Plagarism Detector using Python
 In this project, the user can compare two files to find the percentage of plagarism between them.
 The project is built using Python.
 - Firstly, I used SequenceMatcher from difflib library to check the contents in the file and produce the ratio of similarity.
