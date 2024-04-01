@@ -4,7 +4,6 @@ import random
 import sqlite3
 def get_connection():
     conn = sqlite3.connect("detections.sqlite")
-    conn.execute("Create Table Detections(Id text, Plagiarism_Percentage text)")
     return conn
 st.title("Plagiarism Detector")
 st.markdown("Compare your files to check the percentage of plagiarism present.")
